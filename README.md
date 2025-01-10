@@ -1,6 +1,6 @@
 # oc
 
-`skectl` is a command-line tool similar to OpenShift CLI (oc), providing cluster login and basic Kubernetes resource management functionality.
+`oc` is a command-line tool similar to OpenShift CLI (oc), providing cluster login and basic Kubernetes resource management functionality.
 
 ## Features
 
@@ -24,7 +24,7 @@ go install github.com/withlin/oc-demo@latest
 
 ```bash
 # Login with username and password (interactive input)
-skectl login https://api.cluster.example.com:6443
+oc login https://api.cluster.example.com:6443
 ```
 
 ## Development
@@ -36,7 +36,7 @@ skectl login https://api.cluster.example.com:6443
 ### Build
 
 ```bash
-go build -o skectl
+go build -o oc
 ```
 
 ### Run Tests
